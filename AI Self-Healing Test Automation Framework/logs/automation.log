@@ -1,0 +1,505 @@
+2026-03-16 14:58:16,338 - conftest - INFO - Pytest configuration started
+2026-03-16 14:58:16,340 - conftest - INFO - Test files: ['tests']
+2026-03-16 14:58:16,416 - conftest - INFO - Test session started
+2026-03-16 14:58:31,122 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 14:58:55,425 - conftest - INFO - Test session finished with status: 2
+2026-03-16 14:59:20,497 - conftest - INFO - Pytest configuration started
+2026-03-16 14:59:20,498 - conftest - INFO - Test files: ['tests']
+2026-03-16 14:59:20,540 - conftest - INFO - Test session started
+2026-03-16 14:59:27,276 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 14:59:33,670 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 14:59:33,675 - utils.logger - INFO - Starting: Test: Generate greeting message
+2026-03-16 14:59:33,676 - tests.test_send_messages - INFO - Starting test_generate_greeting_message
+2026-03-16 14:59:33,677 - ai.message_generator - INFO - Generating greeting for John Doe
+2026-03-16 14:59:33,678 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 14:59:33,680 - tests.test_send_messages - INFO - Generated greeting: Hi John Doe, how are you?
+2026-03-16 14:59:33,680 - utils.logger - INFO - Completed: Test: Generate greeting message
+2026-03-16 14:59:33,691 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 14:59:38,807 - conftest - INFO - Test session finished with status: 0
+2026-03-16 15:00:18,854 - conftest - INFO - Pytest configuration started
+2026-03-16 15:00:18,856 - conftest - INFO - Test files: ['tests']
+2026-03-16 15:00:18,910 - conftest - INFO - Test session started
+2026-03-16 15:00:27,288 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:00:34,902 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:00:34,909 - utils.logger - INFO - Starting: Test: Navigate to WhatsApp
+2026-03-16 15:00:34,910 - tests.test_send_messages - INFO - Starting test_navigate_to_whatsapp
+2026-03-16 15:00:34,910 - pages.whatsapp_page - INFO - Navigating to https://web.whatsapp.com
+2026-03-16 15:01:03,534 - pages.whatsapp_page - INFO - QR code detected - awaiting scan
+2026-03-16 15:01:03,744 - tests.test_send_messages - INFO - Page title: WhatsApp
+2026-03-16 15:01:04,093 - pages.whatsapp_page - INFO - Screenshot saved: C:\Users\hp\Desktop\AI Self-Healing Test Automation Framework\reports\whatsapp_loaded.png
+2026-03-16 15:01:04,095 - utils.logger - INFO - Completed: Test: Navigate to WhatsApp
+2026-03-16 15:01:04,102 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:01:07,701 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:01:12,071 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:01:12,076 - utils.logger - INFO - Starting: Test: Generate greeting message
+2026-03-16 15:01:12,078 - tests.test_send_messages - INFO - Starting test_generate_greeting_message
+2026-03-16 15:01:12,078 - ai.message_generator - INFO - Generating greeting for John Doe
+2026-03-16 15:01:12,079 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:01:12,080 - tests.test_send_messages - INFO - Generated greeting: Hi John Doe, how are you?
+2026-03-16 15:01:12,081 - utils.logger - INFO - Completed: Test: Generate greeting message
+2026-03-16 15:01:12,387 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:01:16,564 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:01:22,885 - conftest - INFO - Test session finished with status: 2
+2026-03-16 15:01:30,592 - conftest - INFO - Pytest configuration started
+2026-03-16 15:01:30,593 - conftest - INFO - Test files: ['tests']
+2026-03-16 15:01:30,642 - conftest - INFO - Test session started
+2026-03-16 15:01:39,161 - conftest - INFO - Test session finished with status: 0
+2026-03-16 15:02:12,270 - conftest - INFO - Pytest configuration started
+2026-03-16 15:02:12,272 - conftest - INFO - Test files: ['tests']
+2026-03-16 15:02:12,330 - conftest - INFO - Test session started
+2026-03-16 15:02:20,350 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:02:26,168 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:02:26,172 - utils.logger - INFO - Starting: Test: Generate greeting message
+2026-03-16 15:02:26,173 - tests.test_send_messages - INFO - Starting test_generate_greeting_message
+2026-03-16 15:02:26,175 - ai.message_generator - INFO - Generating greeting for John Doe
+2026-03-16 15:02:26,176 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:02:26,178 - tests.test_send_messages - INFO - Generated greeting: Hi John Doe, how are you?
+2026-03-16 15:02:26,179 - utils.logger - INFO - Completed: Test: Generate greeting message
+2026-03-16 15:02:26,184 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:02:33,998 - conftest - INFO - Test session finished with status: 2
+2026-03-16 15:02:47,365 - conftest - INFO - Pytest configuration started
+2026-03-16 15:02:47,366 - conftest - INFO - Test files: ['tests']
+2026-03-16 15:02:47,417 - conftest - INFO - Test session started
+2026-03-16 15:02:58,172 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:03:04,568 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:03:04,572 - utils.logger - INFO - Starting: Test: Send single message
+2026-03-16 15:03:04,573 - tests.test_send_messages - INFO - Starting test_send_single_message
+2026-03-16 15:03:04,573 - ai.message_generator - INFO - Generating greeting for Test Contact
+2026-03-16 15:03:04,574 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:03:04,576 - tests.test_send_messages - INFO - Generated message: Hi Test Contact, how are you?
+2026-03-16 15:03:04,577 - tests.test_send_messages - INFO - Message validation passed
+2026-03-16 15:03:04,579 - utils.logger - INFO - Completed: Test: Send single message
+2026-03-16 15:03:04,585 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:03:08,058 - conftest - INFO - Test session finished with status: 0
+2026-03-16 15:10:18,725 - conftest - INFO - Pytest configuration started
+2026-03-16 15:10:18,729 - conftest - INFO - Test files: ['tests']
+2026-03-16 15:10:18,853 - conftest - INFO - Test session started
+2026-03-16 15:10:30,673 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:10:39,447 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:10:39,452 - utils.logger - INFO - Starting: Test: Navigate to WhatsApp
+2026-03-16 15:10:39,452 - tests.test_send_messages - INFO - Starting test_navigate_to_whatsapp
+2026-03-16 15:10:39,453 - pages.whatsapp_page - INFO - Navigating to https://web.whatsapp.com
+2026-03-16 15:11:04,738 - pages.whatsapp_page - INFO - QR code detected - awaiting scan
+2026-03-16 15:11:04,795 - tests.test_send_messages - INFO - Page title: WhatsApp
+2026-03-16 15:11:05,261 - pages.whatsapp_page - INFO - Screenshot saved: C:\Users\hp\Desktop\AI Self-Healing Test Automation Framework\reports\whatsapp_loaded.png
+2026-03-16 15:11:05,262 - utils.logger - INFO - Completed: Test: Navigate to WhatsApp
+2026-03-16 15:11:05,270 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:11:08,707 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:11:12,603 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:11:12,606 - utils.logger - INFO - Starting: Test: Generate greeting message
+2026-03-16 15:11:12,607 - tests.test_send_messages - INFO - Starting test_generate_greeting_message
+2026-03-16 15:11:12,607 - ai.message_generator - INFO - Generating greeting for John Doe
+2026-03-16 15:11:12,608 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:11:12,612 - tests.test_send_messages - INFO - Generated greeting: Hi John Doe, how are you?
+2026-03-16 15:11:12,612 - utils.logger - INFO - Completed: Test: Generate greeting message
+2026-03-16 15:11:12,620 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:11:15,701 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:11:18,548 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:11:18,551 - utils.logger - INFO - Starting: Test: Generate contextual message
+2026-03-16 15:11:18,552 - tests.test_send_messages - INFO - Starting test_generate_contextual_message
+2026-03-16 15:11:18,553 - ai.message_generator - INFO - Generating follow_up message for Jane Smith
+2026-03-16 15:11:18,554 - ai.message_generator - ERROR - Failed to generate message: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:11:18,554 - tests.test_send_messages - INFO - Generated message: Hi Jane Smith, how can I help you today?
+2026-03-16 15:11:18,555 - utils.logger - INFO - Completed: Test: Generate contextual message
+2026-03-16 15:11:18,939 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:11:22,346 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:11:25,412 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:11:25,415 - utils.logger - INFO - Starting: Test: Load contacts from Excel
+2026-03-16 15:11:25,416 - tests.test_send_messages - INFO - Starting test_load_contacts_from_excel
+2026-03-16 15:11:25,417 - utils.sheet_reader - ERROR - Excel file not found: test_data/contacts.xlsx
+2026-03-16 15:11:25,418 - tests.test_send_messages - WARNING - Excel file not found: Excel file not found: test_data/contacts.xlsx
+2026-03-16 15:11:25,444 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:11:28,609 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:11:31,369 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:11:31,378 - utils.logger - INFO - Starting: Test: Search contact workflow
+2026-03-16 15:11:31,381 - tests.test_send_messages - INFO - Starting test_search_contact_workflow
+2026-03-16 15:11:31,383 - tests.test_send_messages - INFO - Navigate to WhatsApp and scan QR code within 60 seconds
+2026-03-16 15:11:31,384 - pages.whatsapp_page - INFO - Navigating to https://web.whatsapp.com
+2026-03-16 15:11:54,288 - pages.whatsapp_page - INFO - QR code detected - awaiting scan
+2026-03-16 15:11:59,289 - tests.test_send_messages - INFO - WhatsApp loaded successfully
+2026-03-16 15:11:59,290 - utils.logger - INFO - Completed: Test: Search contact workflow
+2026-03-16 15:11:59,294 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:12:02,440 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:12:06,891 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:12:06,896 - utils.logger - INFO - Starting: Test: Send single message
+2026-03-16 15:12:06,897 - tests.test_send_messages - INFO - Starting test_send_single_message
+2026-03-16 15:12:06,898 - ai.message_generator - INFO - Generating greeting for Test Contact
+2026-03-16 15:12:06,899 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:12:06,900 - tests.test_send_messages - INFO - Generated message: Hi Test Contact, how are you?
+2026-03-16 15:12:06,900 - tests.test_send_messages - INFO - Message validation passed
+2026-03-16 15:12:06,901 - utils.logger - INFO - Completed: Test: Send single message
+2026-03-16 15:12:06,910 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:12:09,936 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:12:13,021 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:12:13,025 - utils.logger - INFO - Starting: Test: Send bulk messages (simulated)
+2026-03-16 15:12:13,026 - tests.test_send_messages - INFO - Starting test_send_bulk_messages_simulated
+2026-03-16 15:12:13,026 - ai.message_generator - INFO - Generating greeting for Alice
+2026-03-16 15:12:13,028 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:12:13,030 - tests.test_send_messages - INFO - Message for Alice: Hi Alice, how are you?
+2026-03-16 15:12:13,031 - ai.message_generator - INFO - Generating greeting for Bob
+2026-03-16 15:12:13,032 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:12:13,033 - tests.test_send_messages - INFO - Message for Bob: Hi Bob, how are you?
+2026-03-16 15:12:13,034 - ai.message_generator - INFO - Generating greeting for Charlie
+2026-03-16 15:12:13,034 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:12:13,035 - tests.test_send_messages - INFO - Message for Charlie: Hi Charlie, how are you?
+2026-03-16 15:12:13,036 - tests.test_send_messages - INFO - Successfully generated 3 messages
+2026-03-16 15:12:13,036 - utils.logger - INFO - Completed: Test: Send bulk messages (simulated)
+2026-03-16 15:12:13,050 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:12:16,121 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:12:18,772 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:12:18,776 - utils.logger - INFO - Starting: Test: Validate message appropriateness
+2026-03-16 15:12:18,777 - tests.test_send_messages - INFO - Starting test_validate_message_appropriateness
+2026-03-16 15:12:18,778 - ai.message_generator - INFO - Validating message content
+2026-03-16 15:12:18,782 - ai.message_generator - ERROR - Failed to validate message: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:12:18,784 - tests.test_send_messages - INFO - Message 'Hi, how are you?' - Valid: True
+2026-03-16 15:12:18,785 - ai.message_generator - INFO - Validating message content
+2026-03-16 15:12:18,785 - ai.message_generator - ERROR - Failed to validate message: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:12:18,786 - tests.test_send_messages - INFO - Message 'I hope this message finds you well' - Valid: True
+2026-03-16 15:12:18,787 - ai.message_generator - INFO - Validating message content
+2026-03-16 15:12:18,787 - ai.message_generator - ERROR - Failed to validate message: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:12:18,788 - tests.test_send_messages - INFO - Message 'Let's schedule a meeting' - Valid: True
+2026-03-16 15:12:18,789 - utils.logger - INFO - Completed: Test: Validate message appropriateness
+2026-03-16 15:12:18,793 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:12:21,757 - tests.test_send_messages - INFO - Setting up integration test fixtures
+2026-03-16 15:12:21,760 - utils.logger - INFO - Starting: Integration Test: End-to-end message flow
+2026-03-16 15:12:21,761 - tests.test_send_messages - INFO - Starting integration test
+2026-03-16 15:12:21,761 - ai.message_generator - INFO - Generating greeting for Alice Johnson
+2026-03-16 15:12:21,762 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:12:21,762 - ai.message_generator - INFO - Generating greeting for Bob Smith
+2026-03-16 15:12:21,763 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:12:21,763 - tests.test_send_messages - INFO - Integration test completed successfully
+2026-03-16 15:12:21,763 - utils.logger - INFO - Completed: Integration Test: End-to-end message flow
+2026-03-16 15:12:21,773 - conftest - INFO - Test session finished with status: 0
+2026-03-16 15:12:55,205 - conftest - INFO - Pytest configuration started
+2026-03-16 15:12:55,207 - conftest - INFO - Test files: ['tests']
+2026-03-16 15:12:55,538 - conftest - INFO - Test session started
+2026-03-16 15:13:01,447 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:13:04,727 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:13:04,733 - utils.logger - INFO - Starting: Test: Navigate to WhatsApp
+2026-03-16 15:13:04,734 - tests.test_send_messages - INFO - Starting test_navigate_to_whatsapp
+2026-03-16 15:13:04,735 - pages.whatsapp_page - INFO - Navigating to https://web.whatsapp.com
+2026-03-16 15:13:27,038 - pages.whatsapp_page - INFO - QR code detected - awaiting scan
+2026-03-16 15:13:27,104 - tests.test_send_messages - INFO - Page title: WhatsApp
+2026-03-16 15:13:27,548 - pages.whatsapp_page - INFO - Screenshot saved: C:\Users\hp\Desktop\AI Self-Healing Test Automation Framework\reports\whatsapp_loaded.png
+2026-03-16 15:13:27,549 - utils.logger - INFO - Completed: Test: Navigate to WhatsApp
+2026-03-16 15:13:27,555 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:13:30,496 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:13:34,243 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:13:34,246 - utils.logger - INFO - Starting: Test: Generate greeting message
+2026-03-16 15:13:34,249 - tests.test_send_messages - INFO - Starting test_generate_greeting_message
+2026-03-16 15:13:34,249 - ai.message_generator - INFO - Generating greeting for John Doe
+2026-03-16 15:13:34,250 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:13:34,251 - tests.test_send_messages - INFO - Generated greeting: Hi John Doe, how are you?
+2026-03-16 15:13:34,252 - utils.logger - INFO - Completed: Test: Generate greeting message
+2026-03-16 15:13:34,259 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:13:37,809 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:13:40,888 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:13:40,893 - utils.logger - INFO - Starting: Test: Generate contextual message
+2026-03-16 15:13:40,894 - tests.test_send_messages - INFO - Starting test_generate_contextual_message
+2026-03-16 15:13:40,895 - ai.message_generator - INFO - Generating follow_up message for Jane Smith
+2026-03-16 15:13:40,895 - ai.message_generator - ERROR - Failed to generate message: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:13:40,896 - tests.test_send_messages - INFO - Generated message: Hi Jane Smith, how can I help you today?
+2026-03-16 15:13:40,897 - utils.logger - INFO - Completed: Test: Generate contextual message
+2026-03-16 15:13:40,950 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:13:43,967 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:13:46,992 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:13:46,996 - utils.logger - INFO - Starting: Test: Load contacts from Excel
+2026-03-16 15:13:46,997 - tests.test_send_messages - INFO - Starting test_load_contacts_from_excel
+2026-03-16 15:13:46,999 - utils.sheet_reader - ERROR - Excel file not found: test_data/contacts.xlsx
+2026-03-16 15:13:47,000 - tests.test_send_messages - WARNING - Excel file not found: Excel file not found: test_data/contacts.xlsx
+2026-03-16 15:13:47,124 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:13:50,181 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:13:53,214 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:13:53,219 - utils.logger - INFO - Starting: Test: Search contact workflow
+2026-03-16 15:13:53,220 - tests.test_send_messages - INFO - Starting test_search_contact_workflow
+2026-03-16 15:13:53,220 - tests.test_send_messages - INFO - Navigate to WhatsApp and scan QR code within 60 seconds
+2026-03-16 15:13:53,221 - pages.whatsapp_page - INFO - Navigating to https://web.whatsapp.com
+2026-03-16 15:14:14,617 - pages.whatsapp_page - INFO - QR code detected - awaiting scan
+2026-03-16 15:14:19,619 - tests.test_send_messages - INFO - WhatsApp loaded successfully
+2026-03-16 15:14:19,619 - utils.logger - INFO - Completed: Test: Search contact workflow
+2026-03-16 15:14:19,623 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:14:22,793 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:14:26,506 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:14:26,509 - utils.logger - INFO - Starting: Test: Send single message
+2026-03-16 15:14:26,510 - tests.test_send_messages - INFO - Starting test_send_single_message
+2026-03-16 15:14:26,511 - ai.message_generator - INFO - Generating greeting for Test Contact
+2026-03-16 15:14:26,512 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:14:26,513 - tests.test_send_messages - INFO - Generated message: Hi Test Contact, how are you?
+2026-03-16 15:14:26,514 - tests.test_send_messages - INFO - Message validation passed
+2026-03-16 15:14:26,514 - utils.logger - INFO - Completed: Test: Send single message
+2026-03-16 15:14:26,544 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:14:29,437 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:14:32,483 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:14:32,486 - utils.logger - INFO - Starting: Test: Send bulk messages (simulated)
+2026-03-16 15:14:32,487 - tests.test_send_messages - INFO - Starting test_send_bulk_messages_simulated
+2026-03-16 15:14:32,488 - ai.message_generator - INFO - Generating greeting for Alice
+2026-03-16 15:14:32,488 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:14:32,489 - tests.test_send_messages - INFO - Message for Alice: Hi Alice, how are you?
+2026-03-16 15:14:32,490 - ai.message_generator - INFO - Generating greeting for Bob
+2026-03-16 15:14:32,491 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:14:32,491 - tests.test_send_messages - INFO - Message for Bob: Hi Bob, how are you?
+2026-03-16 15:14:32,492 - ai.message_generator - INFO - Generating greeting for Charlie
+2026-03-16 15:14:32,493 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:14:32,493 - tests.test_send_messages - INFO - Message for Charlie: Hi Charlie, how are you?
+2026-03-16 15:14:32,494 - tests.test_send_messages - INFO - Successfully generated 3 messages
+2026-03-16 15:14:32,495 - utils.logger - INFO - Completed: Test: Send bulk messages (simulated)
+2026-03-16 15:14:32,519 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:14:36,183 - tests.test_send_messages - INFO - Setting up test fixtures
+2026-03-16 15:14:39,314 - pages.whatsapp_page - INFO - WhatsApp Page Object initialized
+2026-03-16 15:14:39,321 - utils.logger - INFO - Starting: Test: Validate message appropriateness
+2026-03-16 15:14:39,323 - tests.test_send_messages - INFO - Starting test_validate_message_appropriateness
+2026-03-16 15:14:39,323 - ai.message_generator - INFO - Validating message content
+2026-03-16 15:14:39,324 - ai.message_generator - ERROR - Failed to validate message: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:14:39,324 - tests.test_send_messages - INFO - Message 'Hi, how are you?' - Valid: True
+2026-03-16 15:14:39,325 - ai.message_generator - INFO - Validating message content
+2026-03-16 15:14:39,326 - ai.message_generator - ERROR - Failed to validate message: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:14:39,326 - tests.test_send_messages - INFO - Message 'I hope this message finds you well' - Valid: True
+2026-03-16 15:14:39,327 - ai.message_generator - INFO - Validating message content
+2026-03-16 15:14:39,327 - ai.message_generator - ERROR - Failed to validate message: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:14:39,329 - tests.test_send_messages - INFO - Message 'Let's schedule a meeting' - Valid: True
+2026-03-16 15:14:39,330 - utils.logger - INFO - Completed: Test: Validate message appropriateness
+2026-03-16 15:14:39,342 - tests.test_send_messages - INFO - Tearing down test fixtures
+2026-03-16 15:14:42,303 - tests.test_send_messages - INFO - Setting up integration test fixtures
+2026-03-16 15:14:42,306 - utils.logger - INFO - Starting: Integration Test: End-to-end message flow
+2026-03-16 15:14:42,307 - tests.test_send_messages - INFO - Starting integration test
+2026-03-16 15:14:42,307 - ai.message_generator - INFO - Generating greeting for Alice Johnson
+2026-03-16 15:14:42,307 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:14:42,308 - ai.message_generator - INFO - Generating greeting for Bob Smith
+2026-03-16 15:14:42,308 - ai.message_generator - ERROR - Failed to generate greeting: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2026-03-16 15:14:42,309 - tests.test_send_messages - INFO - Integration test completed successfully
+2026-03-16 15:14:42,309 - utils.logger - INFO - Completed: Integration Test: End-to-end message flow
+2026-03-16 15:14:42,323 - conftest - INFO - Test session finished with status: 0
